@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Mini Code Mentor</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Mini Code Mentor</h1>
+
+    <label for="language">Select Language:</label>
+    <select id="language">
+      <option value="python">Python</option>
+      <option value="c">C</option>
+    </select>
+
+    <label for="examples">Examples:</label>
+    <select id="examples">
+      <option value="">--Select Example--</option>
+      <option value="py1">Python Print</option>
+      <option value="py2">Python Function</option>
+      <option value="c1">C Print</option>
+    </select>
+
+    <label for="codeInput">Paste Your Code:</label>
+    <textarea id="codeInput" placeholder="Paste your code here..."></textarea>
+
+    <button id="runBtn">Run & Explain</button>
+    <button id="copyBtn">Copy Output</button>
+
+    <pre class="output" id="output">
+Your suggestions and explanations will appear here.
+    </pre>
+  </div>
+
+  <footer>
+    Mini Code Mentor &copy; 2026
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
